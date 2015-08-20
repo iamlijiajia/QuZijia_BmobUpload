@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "UploadViewController.h"
+#import <BmobSDK/Bmob.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +19,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSString *appKey = @"e912cd71b1c65aa3f83b6df510985d12";
+    [Bmob registerWithAppKey:appKey];
+    
+    UploadViewController *mainController = [[UploadViewController alloc]init];
+    UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController:mainController];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor clearColor];
+    
+    [self.window setRootViewController:navigation];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
