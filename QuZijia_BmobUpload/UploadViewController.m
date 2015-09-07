@@ -93,6 +93,7 @@
         [route_1_0 setObject:[dic objectForKey:@"city_of_hotel_Info"] forKey:@"city_of_hotel_Info"];
         [route_1_0 setObject:[dic objectForKey:@"introImages"] forKey:@"introImages"];
         [route_1_0 setObject:[dic objectForKey:@"routeImage"] forKey:@"routeImage"];
+        [route_1_0 setObject:[dic objectForKey:@"show"] forKey:@"show"];
         
         [route_1_0 saveInBackground];
     }
@@ -116,7 +117,7 @@
     {
         [BmobProFile uploadFilesWithPaths:self.imagePaths resultBlock:^(NSArray *filenameArray, NSArray *urlArray, NSArray *bmobFileArray, NSError *error) {
             blockSelf.progressV.hidden = YES;
-            blockSelf.imageRealFileNames = [NSArray arrayWithArray:filenameArray];
+            blockSelf.imageRealFileNames = [NSArray arrayWithArray:urlArray];
             blockSelf.upLoadFinished = YES;
             
             [blockSelf loopArray:routeArray];
@@ -200,6 +201,7 @@
                 if (![[NSFileManager defaultManager] fileExistsAtPath:path])
                 {
                     NSLog(@"ERROR: file not exist! filename = %@" , str);
+                    self.allFilesOK = NO;
                 }
                 else
                 {

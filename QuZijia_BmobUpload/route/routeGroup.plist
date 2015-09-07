@@ -5,6 +5,14 @@
 	<dict>
 		<key>baseIntroThumb</key>
 		<string>gysdh_SYBT.jpg</string>
+		<key>intro</key>
+		<string>一次说走就走的草原之旅</string>
+		<key>name</key>
+		<string>一次说走就走的草原之旅</string>
+		<key>routeImage</key>
+		<string>gysdh_XQY1.jpg</string>
+		<key>show</key>
+		<true/>
 		<key>city_of_hotel_Info</key>
 		<array>
 			<dict>
@@ -13,6 +21,10 @@
 					<dict>
 						<key>hotelName</key>
 						<string>张家口跨越大酒店</string>
+						<key>hotelTel</key>
+						<string>13300001111</string>
+						<key>hotelLocation</key>
+						<string>张家口 桥东区 纬一路时代金茂7号楼 ，近学府西大街。</string>
 						<key>rooms</key>
 						<array>
 							<dict>
@@ -36,6 +48,10 @@
 					<dict>
 						<key>hotelName</key>
 						<string>张家口基业大酒店</string>
+						<key>hotelTel</key>
+						<string>13300001111</string>
+						<key>hotelLocation</key>
+						<string>张家口 桥东区 纬一路时代金茂7号楼 ，近学府西大街。</string>
 						<key>rooms</key>
 						<array>
 							<dict>
@@ -58,6 +74,10 @@
 					<dict>
 						<key>hotelName</key>
 						<string>大润庄园</string>
+						<key>hotelTel</key>
+						<string>13300001111</string>
+						<key>hotelLocation</key>
+						<string>张家口 桥东区 纬一路时代金茂7号楼 ，近学府西大街。</string>
 						<key>rooms</key>
 						<array>
 							<dict>
@@ -73,6 +93,10 @@
 					<dict>
 						<key>hotelName</key>
 						<string>天泽假日酒店</string>
+						<key>hotelTel</key>
+						<string>13300001111</string>
+						<key>hotelLocation</key>
+						<string>张家口 桥东区 纬一路时代金茂7号楼 ，近学府西大街。</string>
 						<key>rooms</key>
 						<array>
 							<dict>
@@ -104,6 +128,10 @@
 					<dict>
 						<key>hotelName</key>
 						<string>隆源休闲度假村</string>
+						<key>hotelTel</key>
+						<string>13300001111</string>
+						<key>hotelLocation</key>
+						<string>张家口 桥东区 纬一路时代金茂7号楼 ，近学府西大街。</string>
 						<key>rooms</key>
 						<array>
 							<dict>
@@ -145,33 +173,29 @@
 				<string>gyshb_HotelMap2.jpg</string>
 			</dict>
 		</array>
-		<key>detailIntro</key>
-		<string>草原天路、闪电湖两日自驾游线路</string>
-		<key>intro</key>
-		<string>一次说走就走的草原之旅</string>
 		<key>introImages</key>
 		<array>
 			<dict>
 				<key>discription</key>
-				<string>蓝天与之相接，白云与之呼应，行走在天路之上，就像是漫步在云端，故而得名“天路”。</string>
+				<string>蓝天与之相接，白云与之呼应，行走在天路之上，就像是漫步在云端。</string>
 				<key>imageName</key>
 				<string>gysdh_YL1.jpg</string>
 			</dict>
 			<dict>
 				<key>discription</key>
-				<string>这里的景色如同这里的人一样，真实而未经修葺。一层层的梯田，静静地躺在大自然的怀抱中，呼吸着最纯净的空气。</string>
+				<string>一层层的梯田，静静地躺在大自然的怀抱中，呼吸着最纯净的空气。</string>
 				<key>imageName</key>
 				<string>gysdh_YL2.jpg</string>
 			</dict>
 			<dict>
 				<key>discription</key>
-				<string>这里年平均气温-1℃，最高气温24℃，7月份气温15.8℃，这里空气含氧量达到27%，含负氧离子较高，被誉为“天然的大氧吧”，是理想的避暑胜地。</string>
+				<string>这里的景色如同这里的人一样，真实而未经修葺。</string>
 				<key>imageName</key>
 				<string>gysdh_YL3.jpg</string>
 			</dict>
 			<dict>
 				<key>discription</key>
-				<string>草原天路，全长132.7公里，犹如一条蛟龙，盘踞于群山峻岭之颠，蜿蜒曲折、跌宕起伏，绵延百余公里。</string>
+				<string>草原天路，如一条蛟龙，盘踞于群山峻岭之颠，蜿蜒曲折、跌宕起伏。</string>
 				<key>imageName</key>
 				<string>gysdh_YL4.jpg</string>
 			</dict>
@@ -200,10 +224,6 @@
 				<string>gysdh_YL8.jpg</string>
 			</dict>
 		</array>
-		<key>name</key>
-		<string>一次说走就走的草原之旅</string>
-		<key>routeImage</key>
-		<string>gysdh_XQY1.jpg</string>
 	</dict>
 	<dict>
 		<key>baseIntroThumb</key>
@@ -262,98 +282,6 @@
 				</array>
 				<key>hotelMapImage</key>
 				<string>gyshb_HotelMap1.jpg</string>
-			</dict>
-			<dict>
-				<key>hotelInfo</key>
-				<array>
-					<dict>
-						<key>hotelName</key>
-						<string>废止</string>
-						<key>rooms</key>
-						<array>
-							<dict>
-								<key>roomIntro</key>
-								<string>最多两人 双床 无早 WIFI覆盖 免费停车</string>
-								<key>roomPrice</key>
-								<string>328</string>
-								<key>roomType</key>
-								<string>标准间</string>
-							</dict>
-						</array>
-					</dict>
-					<dict>
-						<key>hotelName</key>
-						<string>废止</string>
-						<key>rooms</key>
-						<array>
-							<dict>
-								<key>roomIntro</key>
-								<string>最多两人 双床 无早 免费停车</string>
-								<key>roomPrice</key>
-								<string>240</string>
-								<key>roomType</key>
-								<string>标准间</string>
-							</dict>
-							<dict>
-								<key>roomIntro</key>
-								<string>最多两人 大床 无早 免费停车</string>
-								<key>roomPrice</key>
-								<string>290</string>
-								<key>roomType</key>
-								<string>大床房</string>
-							</dict>
-							<dict>
-								<key>roomIntro</key>
-								<string>最多两人 大床 无早 免费停车</string>
-								<key>roomPrice</key>
-								<string>340</string>
-								<key>roomType</key>
-								<string>套房</string>
-							</dict>
-						</array>
-					</dict>
-					<dict>
-						<key>hotelName</key>
-						<string>废止</string>
-						<key>rooms</key>
-						<array>
-							<dict>
-								<key>roomIntro</key>
-								<string>最多两人 双床 无早 WIFI覆盖 免费停车</string>
-								<key>roomPrice</key>
-								<string>348</string>
-								<key>roomType</key>
-								<string>标准间</string>
-							</dict>
-							<dict>
-								<key>roomIntro</key>
-								<string>最多两人 大床 无早 WIFI覆盖 免费停车</string>
-								<key>roomPrice</key>
-								<string>378</string>
-								<key>roomType</key>
-								<string>大床房</string>
-							</dict>
-							<dict>
-								<key>roomIntro</key>
-								<string>最多三人 双床 无早 WIFI覆盖 免费停车</string>
-								<key>roomPrice</key>
-								<string>388</string>
-								<key>roomType</key>
-								<string>家庭房</string>
-							</dict>
-							<dict>
-								<key>roomIntro</key>
-								<string>最多两人 双床 无早 WIFI覆盖 免费停车</string>
-								<key>roomPrice</key>
-								<string>488</string>
-								<key>roomType</key>
-								<string>豪华套房</string>
-							</dict>
-						</array>
-					</dict>
-				</array>
-				<key>hotelMapImage</key>
-				<string>gyshb_HotelMap2.jpg</string>
 			</dict>
 		</array>
 		<key>detailIntro</key>
@@ -437,14 +365,14 @@
 					</dict>
 					<dict>
 						<key>hotelName</key>
-						<string>张家口基业大酒店</string>
+						<string>北京斋堂中坤山庄</string>
 						<key>rooms</key>
 						<array>
 							<dict>
 								<key>roomIntro</key>
-								<string>最多两人 双床 含早 WIFI覆盖 免费停车 24小时热水</string>
+								<string>最多两人 双床 WIFI覆盖 免费停车 24小时热水</string>
 								<key>roomPrice</key>
-								<string>146</string>
+								<string>450</string>
 								<key>roomType</key>
 								<string>标准间</string>
 							</dict>
@@ -510,6 +438,8 @@
 		<string>yzxgcdx_XQY1.jpg</string>
 	</dict>
 	<dict>
+		<key>1</key>
+		<string></string>
 		<key>baseIntroThumb</key>
 		<string>sgh_SYBT.jpg</string>
 		<key>city_of_hotel_Info</key>
@@ -519,40 +449,40 @@
 				<array>
 					<dict>
 						<key>hotelName</key>
-						<string></string>
+						<string>张家口中粮长城桑干酒庄</string>
 						<key>rooms</key>
 						<array>
 							<dict>
+								<key>roomIntro</key>
+								<string>最多两人 大床 WIFI覆盖 免费停车场 24小时热水</string>
 								<key>roomPrice</key>
 								<string>598</string>
 								<key>roomType</key>
 								<string>标准间</string>
-								<key>roomintro</key>
-								<string>最多两人 大床 WIFI覆盖 免费停车场 24小时热水</string>
 							</dict>
 							<dict>
+								<key>roomIntro</key>
+								<string>最多两人 大床 WIFI覆盖 免费停车场 24小时热水</string>
 								<key>roomPrice</key>
 								<string>698</string>
 								<key>roomType</key>
 								<string>观景房B</string>
-								<key>roomintro</key>
-								<string>最多两人 大床 WIFI覆盖 免费停车场 24小时热水</string>
 							</dict>
 							<dict>
+								<key>roomIntro</key>
+								<string>最多两人 大床 WIFI覆盖 免费停车场 24小时热水</string>
 								<key>roomPrice</key>
 								<string>798</string>
 								<key>roomType</key>
 								<string>观景房A</string>
-								<key>roomintro</key>
-								<string>最多两人 大床 WIFI覆盖 免费停车场 24小时热水</string>
 							</dict>
 							<dict>
+								<key>roomIntro</key>
+								<string>最多两人 大床 WIFI覆盖 免费停车场 24小时热水</string>
 								<key>roomPrice</key>
 								<string>1888</string>
 								<key>roomType</key>
 								<string>豪华套房</string>
-								<key>roomintro</key>
-								<string>最多两人 大床 WIFI覆盖 免费停车场 24小时热水</string>
 							</dict>
 						</array>
 					</dict>
@@ -562,12 +492,12 @@
 						<key>rooms</key>
 						<array>
 							<dict>
+								<key>roomIntro</key>
+								<string>最多两人 双床 部分WIFI覆盖 免费停车场 24小时热水</string>
 								<key>roomPrice</key>
 								<string>138</string>
 								<key>roomType</key>
 								<string>日式标准房</string>
-								<key>roomintro</key>
-								<string>最多两人 双床 部分WIFI覆盖 免费停车场 24小时热水</string>
 							</dict>
 							<dict>
 								<key>roomIntro</key>

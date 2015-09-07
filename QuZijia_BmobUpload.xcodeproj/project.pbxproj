@@ -38,7 +38,6 @@
 		3AF927A51B856D1700BFFEB4 /* gysdh_YL8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF927721B856D1700BFFEB4 /* gysdh_YL8.jpg */; };
 		3AF927A61B856D1700BFFEB4 /* gyshb_HotelMap1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF927731B856D1700BFFEB4 /* gyshb_HotelMap1.jpg */; };
 		3AF927A71B856D1700BFFEB4 /* gyshb_HotelMap2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF927741B856D1700BFFEB4 /* gyshb_HotelMap2.jpg */; };
-		3AF927A81B856D1700BFFEB4 /* routeGroup.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AF927751B856D1700BFFEB4 /* routeGroup.plist */; };
 		3AF927A91B856D1700BFFEB4 /* s310_HotelMap1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF927761B856D1700BFFEB4 /* s310_HotelMap1.jpg */; };
 		3AF927AA1B856D1700BFFEB4 /* s310_SYBT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF927771B856D1700BFFEB4 /* s310_SYBT.jpg */; };
 		3AF927AB1B856D1700BFFEB4 /* s310_XQY1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF927781B856D1700BFFEB4 /* s310_XQY1.jpg */; };
@@ -77,6 +76,7 @@
 		3AF927CC1B856D1700BFFEB4 /* yzxgcdx_YL5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF927991B856D1700BFFEB4 /* yzxgcdx_YL5.jpg */; };
 		3AF927CD1B856D1700BFFEB4 /* yzxgcdx_YL6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF9279A1B856D1700BFFEB4 /* yzxgcdx_YL6.jpg */; };
 		3AF927CE1B856D1700BFFEB4 /* yzxgcdx_YL7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF9279B1B856D1700BFFEB4 /* yzxgcdx_YL7.jpg */; };
+		3AF927D11B85B34300BFFEB4 /* routeGroup.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AF927D01B85B34300BFFEB4 /* routeGroup.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,7 +127,6 @@
 		3AF927721B856D1700BFFEB4 /* gysdh_YL8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gysdh_YL8.jpg; sourceTree = "<group>"; };
 		3AF927731B856D1700BFFEB4 /* gyshb_HotelMap1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gyshb_HotelMap1.jpg; sourceTree = "<group>"; };
 		3AF927741B856D1700BFFEB4 /* gyshb_HotelMap2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gyshb_HotelMap2.jpg; sourceTree = "<group>"; };
-		3AF927751B856D1700BFFEB4 /* routeGroup.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = routeGroup.plist; sourceTree = "<group>"; };
 		3AF927761B856D1700BFFEB4 /* s310_HotelMap1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s310_HotelMap1.jpg; sourceTree = "<group>"; };
 		3AF927771B856D1700BFFEB4 /* s310_SYBT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s310_SYBT.jpg; sourceTree = "<group>"; };
 		3AF927781B856D1700BFFEB4 /* s310_XQY1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s310_XQY1.jpg; sourceTree = "<group>"; };
@@ -166,6 +165,7 @@
 		3AF927991B856D1700BFFEB4 /* yzxgcdx_YL5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yzxgcdx_YL5.jpg; sourceTree = "<group>"; };
 		3AF9279A1B856D1700BFFEB4 /* yzxgcdx_YL6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yzxgcdx_YL6.jpg; sourceTree = "<group>"; };
 		3AF9279B1B856D1700BFFEB4 /* yzxgcdx_YL7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yzxgcdx_YL7.jpg; sourceTree = "<group>"; };
+		3AF927D01B85B34300BFFEB4 /* routeGroup.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = routeGroup.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +282,7 @@
 		3AF927681B856D1700BFFEB4 /* route */ = {
 			isa = PBXGroup;
 			children = (
+				3AF927D01B85B34300BFFEB4 /* routeGroup.plist */,
 				3AF927691B856D1700BFFEB4 /* gysdh_SYBT.jpg */,
 				3AF9276A1B856D1700BFFEB4 /* gysdh_XQY1.jpg */,
 				3AF9276B1B856D1700BFFEB4 /* gysdh_YL1.jpg */,
@@ -294,7 +295,6 @@
 				3AF927721B856D1700BFFEB4 /* gysdh_YL8.jpg */,
 				3AF927731B856D1700BFFEB4 /* gyshb_HotelMap1.jpg */,
 				3AF927741B856D1700BFFEB4 /* gyshb_HotelMap2.jpg */,
-				3AF927751B856D1700BFFEB4 /* routeGroup.plist */,
 				3AF927761B856D1700BFFEB4 /* s310_HotelMap1.jpg */,
 				3AF927771B856D1700BFFEB4 /* s310_SYBT.jpg */,
 				3AF927781B856D1700BFFEB4 /* s310_XQY1.jpg */,
@@ -452,13 +452,13 @@
 				3AF927AC1B856D1700BFFEB4 /* s310_YL1.jpg in Resources */,
 				3AF927B51B856D1700BFFEB4 /* sdwh_YL1.jpg in Resources */,
 				3AF927C01B856D1700BFFEB4 /* sgh_YL2.jpg in Resources */,
-				3AF927A81B856D1700BFFEB4 /* routeGroup.plist in Resources */,
 				3AF927C71B856D1700BFFEB4 /* yzxgcdx_XQY1.jpg in Resources */,
 				3AF927AA1B856D1700BFFEB4 /* s310_SYBT.jpg in Resources */,
 				3AF927A51B856D1700BFFEB4 /* gysdh_YL8.jpg in Resources */,
 				3AF9279E1B856D1700BFFEB4 /* gysdh_YL1.jpg in Resources */,
 				3AF927CE1B856D1700BFFEB4 /* yzxgcdx_YL7.jpg in Resources */,
 				3AF927C91B856D1700BFFEB4 /* yzxgcdx_YL2.jpg in Resources */,
+				3AF927D11B85B34300BFFEB4 /* routeGroup.plist in Resources */,
 				3AF927C21B856D1700BFFEB4 /* sgh_YL4.jpg in Resources */,
 				3AF927C51B856D1700BFFEB4 /* yzxgcdx_HotelMap1.jpg in Resources */,
 				3AF927CB1B856D1700BFFEB4 /* yzxgcdx_YL4.jpg in Resources */,
